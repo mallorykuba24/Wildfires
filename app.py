@@ -1,4 +1,6 @@
+from flask import Flask
 from flask_pymongo import PyMongo
+
 from flask import render_template, redirect, Flask, jsonify
 
 app = Flask(__name__)
